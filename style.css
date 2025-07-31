@@ -5,21 +5,20 @@
 
 body {
   background-color: rgb(15, 42, 82);
-  margin: 0; 
+  margin: 0;
 }
 
 .title {
   color: rgb(172, 209, 241);
   font-size: 3vw;
-  text-align: center; 
+  text-align: center;
   padding: 10px;
-  font:  bold 3vw pixelify;
-  
+  font: bold 3vw pixelify;
 }
 
 .section {
   position: relative;
-  height: 100vh; 
+  height: 100vh;
   width: 100%;
 }
 
@@ -35,14 +34,12 @@ body {
   opacity: 0.7; /* 70% opacity as in your original code */
 }
 
-.videotitle{
+.videotitle {
   text-align: center;
-  color:rgb(15, 42, 82);
+  color: rgb(15, 42, 82);
   font-size: 2vw;
   font: small-caps bold 30px pixelify;
-  padding-bottom:10px;
-  
-  
+  padding-bottom: 10px;
 }
 
 .background2 {
@@ -59,19 +56,33 @@ body {
 }
 .video-container {
   position: absolute;
-  top: 12%; 
+  top: 12%;
   left: 20%;
-  width: 60%;
-  height: 86%;
-  overflow: hidden; 
-  
+  width: 59.8%;
+  height: 79%;
+  overflow: hidden;
 }
 
 .video-container iframe {
-  
   width: 100%;
   height: 90%;
-   border:none;
+  border: none;
   display: block;
-  
+}
+@media (max-width: 500px) {
+  .video-container {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 90%;
+    height: 40%;
+    
+    overflow: hidden;
+  }
+  .video-container iframe {
+  width: 100%;
+  height: 60%;
+  border: none;
+  display: block;
+}
 }
