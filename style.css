@@ -90,10 +90,10 @@ h3:hover,h1.title:hover{
 
   .video-container {
     position: absolute;
-    top: 30%;
+    top: 0;
     left: 5%;
     width: 90%;
-    height: 40%;
+    height: 130%;
     
     overflow: hidden;
   }
@@ -108,4 +108,13 @@ h3:hover,h1.title:hover{
   font: small-caps bold 3vh pixelify;
 }
 
+.section{
+  height:30vh;
+}
+
+.videotitle {
+ 
+  font: small-caps bold 2vh pixelify;
+  
+}
 }
