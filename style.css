@@ -10,10 +10,22 @@ body {
 
 .title {
   color: rgb(172, 209, 241);
-  font-size: 3vw;
   text-align: center;
-  padding: 10px;
-  font: bold 3vw pixelify;
+  padding: 0px;
+  font: bold 4vw pixelify;
+  
+}
+
+.downloadword{
+    color: rgb(172, 209, 241);
+  text-align: center;
+  padding: 1px;
+  font: bold 1vw pixelify;
+}
+
+h3:hover,h1.title:hover{
+  color:rgb(255, 234, 0);
+ 
 }
 
 .section {
@@ -37,9 +49,8 @@ body {
 .videotitle {
   text-align: center;
   color: rgb(15, 42, 82);
-  font-size: 2vw;
-  font: small-caps bold 30px pixelify;
-  padding-bottom: 10px;
+  font: small-caps bold 4vh pixelify;
+  
 }
 
 .background2 {
@@ -69,7 +80,14 @@ body {
   border: none;
   display: block;
 }
+
+
+
+/***********************************************Mobile****************************************************/
+
 @media (max-width: 500px) {
+
+
   .video-container {
     position: absolute;
     top: 30%;
@@ -85,4 +103,9 @@ body {
   border: none;
   display: block;
 }
+
+.videotitle {
+  font: small-caps bold 3vh pixelify;
+}
+
 }
