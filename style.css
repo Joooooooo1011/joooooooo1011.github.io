@@ -131,13 +131,21 @@ p.pdftitle:active {
 .fter {
   background-color: rgb(15, 42, 82);
   color: rgb(172, 209, 241);
-  padding: 20px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 0.5%;
+  padding-bottom:0%;
+  font-size: 100%;
   top: 80%;
 }
 
 /* Style all font awesome icons */
-.fa {
-  padding: 20px;
+.bi {
+  
+  padding-left: 0.7%;
+  padding-right:0.7% ;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
   font-size: 30px;
   width: 50px;
   text-align: center;
@@ -145,14 +153,14 @@ p.pdftitle:active {
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
+.bi:hover {
   opacity: 0.7;
 }
 
 /* Set a specific color for each brand */
 
 /* Facebookf */
-.fa-facebook {
+.bi-facebook {
   background: #3b5998;
   color: white;
 }
@@ -163,11 +171,25 @@ p.pdftitle:active {
 }
 
 /*youtube*/
-.fa-youtube {
+.bi-youtube {
   background: #bb0000;
   color: white;
 }
+/*X*/
+.bi-twitter-x {
+  background: #000000;
+  color: white;
+}
+.bi-instagram {
+  background: #ff00e6dc;
+  color: white;
+}
 
+
+.logo{
+  width:10%;
+  padding-left:75%;
+}
 /***********************************************Mobile****************************************************/
 
 @media (max-width: 500px) {
