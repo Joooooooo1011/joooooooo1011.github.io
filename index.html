@@ -5,23 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zoom Phone Demo</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="https://www.pngwing.com/en/search?q=Hong+Kong+-+Festival">
   </head>
   <body>
     <div class="title_div">
-    <a href="/Testcase_result.docx" style="text-decoration: none">
+    <a href="https://servicedesk.hktb.com/support/home" target="_blank" style="text-decoration: none">
       <h1 class="title">zoom phone demo</h1></div></a
-    >
-
-    <a href="/Testcase_result.docx" style="text-decoration: none">
-      <h3 class="downloadword">(click here to download)</h3></a
     >
 
     <div class="section">
       <div class="background1"></div>
+      <div class="video-container_pdf">
+
+        <a href="/Testcase_result.pdf" style="text-decoration: none ">
+        <p class="pdftitle">pdf</p>
+          </a>
+
+        <a href="/Testcase_result.pdf" style="text-decoration: none ">
+      <p class="downloadpdf">(click here to download PDF)</p></a
+    >
+    
+    <button id="btnPdfFullscreen">View PDF in fullscreen</button>
+        <iframe id="framePdf"
+          src="/Testcase_result.pdf#page=1&zoom=133"
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="background2"></div>
       <div class="video-container">
-        <p class="videotitle">first video</p>
+        <p class="videotitle">DELEGATION</p>
         <iframe
-          src="https://www.youtube.com/embed/qK45oCw--4I?autoplay=1&mute=1"
+          src="https://youtube.com/embed/pAIIXN-ciAw"
           allowfullscreen
         >
         </iframe>
@@ -29,14 +47,62 @@
     </div>
 
     <div class="section">
-      <div class="background2"></div>
+      <div class="background1"></div>
       <div class="video-container">
-        <p class="videotitle">second video</p>
+        <p class="videotitle">USER SIGN IN</p>
         <iframe
-          src="https://www.youtube.com/embed/rLrHDsV9Uew"
+          src="https://www.youtube.com/embed/wiySXnnjYow"
           allowfullscreen
         ></iframe>
       </div>
     </div>
+
+<div class="section">
+      <div class="background2"></div>
+      <div class="video-container">
+        <p class="videotitle">TAP TO HOTDESK</p>
+        
+        <iframe
+          src="https://www.youtube.com/embed/wG1yMJWR0IY"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    
+
+   
+<div class="section">
+      <div class="background1"></div>
+      <div class="video-container">
+        <p class="videotitle">SWITCH TO PHONE</p>
+        
+        <iframe
+          src="https://www.youtube.com/embed/Z-7sCdPEvYQ"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+
+    <div class="section">
+      <div class="background2"></div>
+      <div class="video-container">
+        <p class="videotitle">SEQUENTIAL RINGING</p>
+        
+        <iframe
+          src="https://www.youtube.com/embed/eAMWegbnk5k"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+<p class="fter" style="font-size: 120%;">Copyright © 2025 Hong Kong Tourism Board. All rights reserved</p>
+   <div class="d_fter_fb">
+    <a href="https://www.facebook.com/DiscoverHongKong/"  target="_blank"     class="fa fa-facebook"></a>
+    <a href="https://www.youtube.com/user/hongkong"  target="_blank"     class="fa fa-youtube"></a>
+
+  </div>
+    <script>btnPdfFullscreen.addEventListener("click", () => framePdf.requestFullscreen());
+</script>
+    
   </body>
 </html>
