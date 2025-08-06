@@ -7,7 +7,21 @@ body {
   background-color: rgb(15, 42, 82);
   margin: 0;
 }
+.title_div{
+  width: 35%;
+  padding-left:32%
+}
 
+
+#pdftext{
+  width:10%;
+  padding-left:45%
+}
+
+#downloadtext{
+  width:23%;
+  padding-left:38%;
+}
 .title {
   color: rgb(172, 209, 241);
   text-align: center;
@@ -190,6 +204,8 @@ p.pdftitle:active {
   width:10%;
   padding-left:75%;
 }
+
+
 /***********************************************Mobile****************************************************/
 
 @media (max-width: 500px) {
