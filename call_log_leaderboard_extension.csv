@@ -1,0 +1,18 @@
+﻿Extension,Ext. Number,Extension Type,Total Calls,Total Inbound Calls,Total Outbound Calls,Total Internal Inbound Calls,Total Internal Outbound Calls,Total External Inbound Calls,Total External Answered Calls(Inbound),Total External Unanswered Calls(Inbound),Total External Outbound Calls,Total External Connected Calls(Outbound),Total External Unconnected Calls(Outbound)
+Johannes Li,Ext. 4243,User,254,141,113,126,99,15,11,4,14,9,5
+Testphone 01,Ext. 4242,User,139,78,61,43,55,35,27,8,6,4,2
+"Testphone 05 (Deleted)
+Deleted on 2025-07-24 14:39",Ext. 8171,User,131,54,77,37,63,17,9,8,14,8,6
+"Testphone 07 (Deleted)
+Deleted on 2025-08-08 10:28",Ext. 4444,User,96,26,70,23,60,3,0,3,10,9,1
+"Testphone 05 (Deleted)
+Deleted on 2025-07-11 17:13",Ext. 8171,User,91,53,38,41,31,12,10,2,7,5,2
+"Testphone 01 (Deleted)
+Deleted on 2025-07-11 15:38",Ext. 8169,User,73,28,45,26,43,2,2,0,2,0,2
+"Testphone 03 (Deleted)
+Deleted on 2025-07-11 16:39",Ext. 8037,User,61,9,52,9,50,0,0,0,2,1,1
+"Testphone 04 (Deleted)
+Deleted on 2025-07-11 17:00",Ext. 8170,User,59,43,16,31,16,12,8,4,0,0,0
+Simon Cheng,Ext. 4240,User,56,25,31,25,19,0,0,0,12,6,6
+"Testphone 04 (Deleted)
+Deleted on 2025-07-24 09:40",Ext. 1999,User,46,25,21,22,11,3,2,1,10,5,5
