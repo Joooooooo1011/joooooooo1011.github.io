@@ -1,0 +1,10 @@
+﻿Email,First Name,Last Name,Package,Site Code,Site Name,User Template,Extension Number,Phone Number,Outbound Caller ID,Select Outbound Caller ID,SMS,User Status,Activation Status,Desk Phone 1's Brand,Desk Phone 1's Model,Desk Phone 1's MAC Address,Desk Phone 1's Provision Template,Desk Phone 2's Brand,Desk Phone 2's Model,Desk Phone 2's MAC Address,Desk Phone 2's Provision Template,Desk Phone 3's Brand,Desk Phone 3's Model,Desk Phone 3's MAC Address,Desk Phone 3's Provision Template
+zoomphone07@hktb.com,Testphone,07,Zoom Workplace Business Plus with JP Unlimited,,,," 	8174",," 	3426 8022",on,,Active,Activate
+zoomphone06@hktb.com,Testphone,06,Global Select,,,," 	1999",3426 8169," 	3426 8169",on,Enable,Active,Activate,AudioCodes,445hd,00908f9f71ec,
+zoomphone05@hktb.com,Testphone,05,Global Select,,,," 	2222",3426 8171," 	3426 8171",on,Enable,Active,Activate
+zoomphone04@hktb.com,Testphone,04,Global Select,,,," 	1111",," 	3426 8022",on,Enable,Active,Activate,AudioCodes,405hd,00908fd944c3,
+zoomphone02@hktb.com,Testphone,02,Basic,,,," 	8172",,,off,,Active,Activate
+zoomphone01@hktb.com,Testphone,01,Global Select,,,," 	4242",2765 4242," 	2765 4242",on,Enable,Active,Activate
+johannes.li@hktb.com,Johannes,Li,"Global Select,Zoom Workplace Business Plus with JP Unlimited",,,," 	4243",2765 4243," 	2765 4243",on,Enable,Active,Activate
+zoompoc.hktb@esi-asia.com,Zoom POC,HKTB,Basic,,,," 	802",,,off,,Active,Activate
+simon.cheng@hktb.com,Simon,Cheng,Basic,,,," 	4240",,,off,,Active,Activate
